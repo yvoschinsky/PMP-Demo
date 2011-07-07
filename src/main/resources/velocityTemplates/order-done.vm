@@ -1,0 +1,13 @@
+<html>
+<body>
+<h3>Hi ${user}!</h3>
+
+<div>
+   Your email address is <a href="mailto:${user}">${user}</a>.
+</div>
+<div>
+   Your product ${sku} reached price ${orderPrice}.
+</div>
+</body>
+
+</html>

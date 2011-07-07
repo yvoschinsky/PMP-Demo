@@ -1,0 +1,22 @@
+<html>
+<body>
+<h3>Hi ${user}, welcome to the PMP Demo!</h3>
+
+<div>
+   Your email address is <a href="mailto:${user}">${user}</a>.
+</div>
+
+<div>
+    Your order </br>
+&nbsp&nbsp&nbsp SKU: ${sku} </br>
+&nbsp&nbsp&nbsp Model ID: ${mid} </br>
+&nbsp&nbsp&nbsp Name: ${name} </br>
+&nbsp&nbsp&nbsp Description: ${description} </br>
+&nbsp&nbsp&nbsp Target Price: ${orderprice} </br>
+&nbsp&nbsp&nbsp Current Price: ${cprice} </br>
+&nbsp&nbsp&nbsp Time to watch: ${period} </br>
+    is now ACTIVE
+</div>
+</body>
+
+</html>

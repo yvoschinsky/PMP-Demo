@@ -1,0 +1,13 @@
+<html>
+<body>
+<h3>Hi ${user}!</h3>
+
+<div>
+   Your email address is <a href="mailto:${user}">${user}</a>.
+</div>
+<div>
+   PMP was accepted and here is a coupon to purchase item with ${discount}% discount off current price.
+</div>
+</body>
+
+</html>
